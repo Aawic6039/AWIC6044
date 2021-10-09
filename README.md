@@ -12,3 +12,4 @@
 []2.行事曆
 ###陳思豪老師https://ivory-gaura-57e.notion.site/AI-f657e4354c544c2ab29e57a87987f5e0
 ###專業技巧Noiion  :https://www.youtube.com/watch?v=Q_PfYlAtvHc
+###RAGIC https://www.youtube.com/watch?v=Q_PfYlAtvHc
