@@ -6,7 +6,7 @@
 ## 計畫: 勞動部勞動力發展署「產業新尖兵試辦計畫」
 訓練單位: 萬能學校財團法人萬能科技大學
 ###授課老師:科技公司資訊技術長 & 萬能資工系兼任教師 黃慶福 (awic6039@yahoo.com.tw)
-A. 課程與行事曆 (Course & Calendar)
+###A. 課程與行事曆 (Course & Calendar)
 
 
 ###陳思豪老師https://ivory-gaura-57e.notion.site/AI-f657e4354c544c2ab29e57a87987f5e0
