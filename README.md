@@ -24,3 +24,4 @@
 ####  https://www.youtube.com/watch?v=23bbB4i9F74
 ### [使用 GitHub 免費製作個人網站]https://www.youtube.com/watch?v=23bbB4i9F74
 ## makkdown https://gist.github.com/billy3321/1001749662c370887c63bb30f26c9e6e
+## [教學] 在windows上使用github 新手教學 / 初學者指南 https://itspg.github.io/blog/2012/02/29/github-on-windows-tutorial/
