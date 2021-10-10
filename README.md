@@ -26,3 +26,4 @@
 ## makkdown https://gist.github.com/billy3321/1001749662c370887c63bb30f26c9e6e
 ## [教學] 在windows上使用github 新手教學 / 初學者指南 https://itspg.github.io/blog/2012/02/29/github-on-windows-tutorial/
 ##  [從伺服器上取得 Repository ]https://gitbook.tw/chapters/github/clone-repository.html
+## Git 與 Github 版本控制基本指令與操作入門教學https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/
