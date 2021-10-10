@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ch11-06</title>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <style>
+        div    {clear:left;}
+        .selected  {background: orange; }
+        .small {
+            width:100px; 
+            float:left;
+            margin:2px; 
+            padding:3px; 
+            border: 1px black solid;}
+            
+       #viewer{width:640px;
+               overflow:hidden;}  /* 將超出範圍的內容隱藏 */
+               
+	   #all   {width:2560px;      /* 容納全部大圖的區塊   */
+               height:427px; 
+               position:relative;}/* 使用相對定位         */
+    </style>
+    <script>
+      $(function(){
+        var timer;    // 計時器變數
+        
+        // 為每張縮圖製作一個大圖的 img 標籤, 並加到 #all 區塊中
+        $('.small').each(function() {
+            var tag = $('<img></img>');    // 建立 img 元素
+            tag.attr('src', 
+                     $(this).attr('src')); // 複製縮圖的 src 屬性
+            $('#all').append(tag);         // 附加元素
+        });
+        
+        // 設定縮圖的按下事件處理器
+        $('.small').click(function(){
+            clearTimeout(timer);    // 清除計時器
+            
+            // 取消上張縮圖的選取圖框
+            $('.selected').toggleClass('selected');
+            
+            // 將被按的縮圖加上選取圖框
+            $(this).toggleClass('selected');
+            
+            // 計算要移動的位置
+			var pos=$('.small').index(this)*-640;
+            $('#all').animate({'left':pos+'px'},'slow');
+            
+            // 索引值加 1 表示下一張縮圖
+            var next = $('.small').index(this) + 1;
+            
+            // 若索引值超過範圍, 則設為0, 表示再重頭開始播放
+            if(next == $('.small').length) next=0; 
+            
+            // 設定 3 秒後觸發下一張縮圖的 click 事件
+            timer=setTimeout(function(){
+              $('.small')[next].click()
+             }, 3000);
+        });
+        
+        //一開始先選第 1 張縮圖
+        $('.small')[0].click()
+      });
+    </script>
+</head>
+<body>
+  <h3>看蜂炮</h3>
+  <div id="thumbs">
+    <img class="small" src="media/DSCF3350.jpg">
+    <img class="small" src="media/DSCF3359.jpg">
+    <img class="small" src="media/DSCF3392.jpg">
+    <img class="small" src="media/DSCF3396.jpg">
+  </div>
+  <div id="viewer"> <!-- 限制顯示寬度的區塊 -->
+    <div id="all"><!-- 用來容納全部大圖的區塊 --></div>
+  </div>
+</body>
+</html>
