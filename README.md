@@ -9,15 +9,9 @@
 ### A. 課程與行事曆 (Course & Calendar)
 # *課程，行事曆*
 # **課程**
->>  行事曆
->>  
->>  
->>  行事曆
-  1.[Dillinger](http://dillinger.io/ "link")
-     fgg  
-     hjjj 
-  2.ui
-  3.<https://www.youtube.com/watch?v=23bbB4i9F74>
+>>  學習主題
+  1.[MdEditor的功能列表演示](https://www.mdeditor.tw/ "MdEditor的功能列表演示")
+  2.<https://www.youtube.com/watch?v=23bbB4i9F74>
 ### 陳思豪老師https://ivory-gaura-57e.notion.site/AI-f657e4354c544c2ab29e57a87987f5e0
 ### 專業技巧Noiion  :https://www.youtube.com/watch?v=Q_PfYlAtvHc
 ### RAGIC https://www.youtube.com/watch?v=Q_PfYlAtvHc
